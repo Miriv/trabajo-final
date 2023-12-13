@@ -4,3 +4,101 @@
 	box-sizing: border-box;
 }
 
+/* Estilo para el encabezado (header) */
+header {
+    background-color: #1E5A7F; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 10px; /* Espaciado interno del encabezado */
+}
+
+/* Estilo para el contenedor del encabezado */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+}
+
+/* Estilo para el logo */
+.logo {
+    border-radius: 5px;
+    width: 80px; /* Tamaño del logo */
+    margin-right: 10px;
+}
+
+/* Estilo para la frase al costado del logo */
+.frase {
+	font-size: 25px;
+	color: #ffff;
+	display: inline-block;
+    line-height: 1;
+    max-width: 380px;
+    outline: none;
+    overflow: hidden;
+    padding: 26px 22px;
+    text-decoration: none;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    text-align: right;
+}
+
+/* Estilo para la lista no ordenada */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para cada elemento de la lista */
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Estilo para los enlaces */
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color del texto de los enlaces */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+}
+
+/* Efecto de cambio de color al pasar el ratón sobre los enlaces */
+nav ul li a:hover {
+    background-color: #2C729F; /* Nuevo color de fondo al pasar el ratón sobre los enlaces */
+}
+
+/* Estilo para el pie de página */
+footer {
+    height: 100px; /* Altura del pie de página */
+    background-color: #1E5A7F; /* Color de fondo del pie de página */
+}
+
+@media only screen and (max-width: 768px) {
+
+	.nav {
+		margin-top: 10px;
+	}
+
+	.container-nav {
+		
+	}
+
+    .logo-container {
+        flex-direction: column; /* Apila el logo y la frase en pantallas pequeñas */
+        align-items: flex-start; /* Hace que el logo ocupe el 100% del ancho en pantallas pequeñas */
+    }
+
+    .frase {
+        margin-top: 10px;
+    }
+}
