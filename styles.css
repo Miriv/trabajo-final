@@ -151,10 +151,40 @@ img.just-container {
 	max-width: 40%;
 }
 
+.values-container {
+	text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.valores-container {
+	color: #1E5A7F; /* Color del título */
+    font-weight: bold;
+}
+
+.valores-container:hover {
+	background-color: #1E5A7F; /* Cambia el color de fondo al pasar el mouse */
+    color: #fff; /* Cambia el color del texto al pasar el mouse */
+    padding: 10px; /* Añade un poco de espacio alrededor del texto al pasar el mouse */
+    border-radius: 5px;
+}
+
 /* Estilo para el pie de página */
 footer {
-    height: 100px; /* Altura del pie de página */
-    background-color: #1E5A7F; /* Color de fondo del pie de página */
+    height: 100px;
+    background-color: #1E5A7F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -163,7 +193,9 @@ footer {
 		margin-top: 10px;
 	}
 
-	.container-nav {}
+	ul.container-nav {
+		font-size: 12px;
+	}
 
     .logo-container {
         flex-direction: column; /* Apila el logo y la frase en pantallas pequeñas */
