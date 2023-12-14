@@ -77,6 +77,80 @@ nav ul li a:hover {
     background-color: #2C729F; /* Nuevo color de fondo al pasar el ratón sobre los enlaces */
 }
 
+.cita-container {
+	height: 80vh;
+	margin: 10px;
+    background-image: url("https://enredaccion.com.ar/wp-content/uploads/2020/02/5a.jpg");
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+    padding: 100px;
+    border-radius: 10px; /* Bordes redondeados para el contenedor de la cita */
+    color: #fff; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad del texto */
+}
+
+.cita {
+	justify-content: center;
+	text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.autor {
+    font-style: italic;
+    font-size: 26px;
+    margin: 10px;
+}
+
+.welcome-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome {
+	color: #3498db;
+	width: 100%;
+}
+
+.valores {
+	color: #3498db;
+	width: 100%;
+}
+
+.left-paragraph,.right-paragraph {
+    flex:1;
+    padding: 20px;
+}
+
+.left-paragraph {
+	font-size: 20px;
+    text-align: left;
+    margin-right: 5%;
+}
+
+.right-paragraph {
+	font-size: 20px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.just-container {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+img.just-container {
+	border-radius: 10px;
+	height: auto;
+	max-width: 40%;
+}
+
 /* Estilo para el pie de página */
 footer {
     height: 100px; /* Altura del pie de página */
@@ -89,9 +163,7 @@ footer {
 		margin-top: 10px;
 	}
 
-	.container-nav {
-		
-	}
+	.container-nav {}
 
     .logo-container {
         flex-direction: column; /* Apila el logo y la frase en pantallas pequeñas */
@@ -101,4 +173,35 @@ footer {
     .frase {
         margin-top: 10px;
     }
+
+    .cita-container {
+        background-size: auto; /* Ajusta el tamaño de la imagen para adaptarse al contenido */
+        background-size: cover;
+    }
+
+    .cita {
+    	text-align: center;
+        font-size: 20px; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+    }
+
+    .autor {
+        font-size: 14px; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+    }
+
+    img.just-container {
+    	border-radius: 10px;
+		height: auto;		
+		max-width: 90%;
+	}
+
+    .just-container {
+    	height: auto;
+    	max-width: 100%;
+    }
+
+    .left-paragraph, .right-paragraph {
+    	font-size: 20px;
+        flex: 100%;
+    }
+
 }
