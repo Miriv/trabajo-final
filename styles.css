@@ -149,7 +149,7 @@ nav ul li a:hover {
 img.just-container {
 	border-radius: 10px;
 	height: auto;
-	max-width: 100%;
+	max-width: 50%;
 }
 
 .values-container {
@@ -191,6 +191,29 @@ img.just-container {
 
 .imag-serv:hover {
     transform: scale(1.1); /* Efecto de aumento al pasar el mouse sobre la imagen */
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #d6ecf2; /* Color de fondo del recuadro */
+    padding: 15px;
+}
+
+.contenido {
+    flex: 1; /* El contenido ocupa todo el espacio disponible */
+}
+
+.imagen-container img{
+	max-width: 90%; /* La imagen no excede el ancho de su contenedor */
 }
 
 /* Estilo para el pie de página */
@@ -264,6 +287,16 @@ footer {
     	margin-bottom: 15%;
     	display: inline-block;
     	width: 55%;
+    }
+
+    .contenedor {
+        flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+        text-align: center;
+    }
+
+    .imagen-container {
+    	max-width: 100%;
+        margin-top: 20px; /* Añade un espacio entre el texto y la imagen en pantallas pequeñas */
     }
 
 }
