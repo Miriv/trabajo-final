@@ -286,6 +286,7 @@ h2 {
     background-color: #2079b0; 
 }
 .horarios {
+	font-family: Afacad;
     background-color: #f4f4f4; 
     border-radius: 10px;
     padding: 20px;
@@ -294,10 +295,12 @@ h2 {
 }
 
 .horarios h3 {
+	font-family: Afacad;
     color: #333; 
 }
 
 .horarios p {
+	font-family: Afacad;
     margin: 10px 0; 
 }
 
@@ -307,6 +310,7 @@ h2 {
 }
 
 .wp-block-heading {
+	font-family: Afacad;
     background-color: #f7f7f7;
     padding: 20px;
     border: 1px solid #ddd;
@@ -316,6 +320,7 @@ h2 {
 }
 
 .contacto {
+	font-family: Afacad;
     display: inline-block;
     padding: 15px 30px;
     background-color: #1e5a7f;
@@ -335,11 +340,13 @@ h2 {
 }
 
 .pnov {
+	font-family: Afacad;
 	font-size: 20px;
 	margin: 5px;
 }
 
 footer {
+	font-family: Afacad;
     height: 100px;
     background-color: #1E5A7F;
     display: flex;
@@ -353,6 +360,7 @@ footer {
 }
 
 .footer-section h4 {
+	font-family: Afacad;
     margin-bottom: 10px;
 }
 
