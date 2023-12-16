@@ -152,6 +152,13 @@ img.just-container {
 	max-width: 50%;
 }
 
+.justi-container {
+	border-radius: 10px;
+	height: auto;
+	max-width: 70%;
+	margin: 25px;
+}
+
 .values-container {
 	text-align: center;
     max-width: 800px;
@@ -213,7 +220,8 @@ h2 {
 }
 
 .imagen-container img{
-	max-width: 90%; /* La imagen no excede el ancho de su contenedor */
+	height: auto;
+	max-width: 60%; /* La imagen no excede el ancho de su contenedor */
 }
 
 .ubicacionmap {
@@ -260,6 +268,27 @@ h2 {
 .cta-button:hover {
     background-color: #2079b0; /* Color al pasar el ratón */
 }
+.horarios {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.horarios h3 {
+    color: #333; /* Color del texto para el título */
+}
+
+.horarios p {
+    margin: 10px 0; /* Espaciado entre los párrafos */
+}
+
+/* Estilo para los días cerrados */
+.horarios p.cerrado {
+    color: #d9534f; /* Color rojo para indicar días cerrados */
+    font-weight: bold;
+}
 
 /* Estilo para el pie de página */
 footer {
@@ -299,6 +328,7 @@ footer {
     }
 
     .cita-container {
+    	height: 60vh;
         background-size: auto; /* Ajusta el tamaño de la imagen para adaptarse al contenido */
         background-size: cover;
     }
@@ -315,12 +345,24 @@ footer {
     img.just-container {
     	border-radius: 10px;
 		height: auto;		
-		max-width: 100%;
+		max-width: 90%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
 	}
 
     .just-container {
     	height: auto;
     	max-width: 100%;
+    }
+
+    .justi-container {
+    	border-radius: 10px;
+		height: auto;		
+		max-width: 90%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
     }
 
     .left-paragraph, .right-paragraph {
