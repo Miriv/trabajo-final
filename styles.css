@@ -1,17 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Lora&family=Roboto+Slab:wght@100&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-/* Estilo para el encabezado (header) */
 header {
-    background-color: #1E5A7F; /* Color de fondo del encabezado */
-    color: #fff; /* Color del texto del encabezado */
-    padding: 10px; /* Espaciado interno del encabezado */
+    background-color: #1E5A7F; 
+    color: #fff; 
+    padding: 10px;
 }
 
-/* Estilo para el contenedor del encabezado */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -24,15 +24,14 @@ header {
 	align-items: center;
 }
 
-/* Estilo para el logo */
 .logo {
     border-radius: 5px;
-    width: 80px; /* Tamaño del logo */
+    width: 80px; 
     margin-right: 10px;
 }
 
-/* Estilo para la frase al costado del logo */
 .frase {
+	font-family: Afacad;
 	font-size: 25px;
 	color: #ffff;
 	display: inline-block;
@@ -44,25 +43,22 @@ header {
     text-decoration: none;
 }
 
-/* Estilo para la barra de navegación */
 nav {
+	font-family: Afacad;
     text-align: right;
 }
 
-/* Estilo para la lista no ordenada */
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-/* Estilo para cada elemento de la lista */
 nav ul li {
     display: inline-block;
     margin-right: 10px;
 }
 
-/* Estilo para los enlaces */
 nav ul li a {
     text-decoration: none;
     color: #fff; /* Color del texto de los enlaces */
@@ -72,23 +68,23 @@ nav ul li a {
     display: block;
 }
 
-/* Efecto de cambio de color al pasar el ratón sobre los enlaces */
 nav ul li a:hover {
-    background-color: #2C729F; /* Nuevo color de fondo al pasar el ratón sobre los enlaces */
+    background-color: #2C729F; 
 }
 
 .cita-container {
-	height: 80vh;
+	height: 75vh;
 	margin: 10px;
     background-image: url("https://enredaccion.com.ar/wp-content/uploads/2020/02/5a.jpg");
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el contenedor */
+    background-size: cover;
     padding: 100px;
-    border-radius: 10px; /* Bordes redondeados para el contenedor de la cita */
+    border-radius: 10px;
     color: #fff; /* Color del texto */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .cita {
+	font-family: Afacad;
 	justify-content: center;
 	text-align: center;
     font-size: 45px;
@@ -96,6 +92,7 @@ nav ul li a:hover {
 }
 
 .autor {
+	font-family: Afacad;
     font-style: italic;
     font-size: 26px;
     margin: 10px;
@@ -112,6 +109,7 @@ nav ul li a:hover {
 }
 
 .welcome {
+	font-family: Afacad;
 	font-size: 45px;
 	color: #3498db;
 	width: 100%;
@@ -128,12 +126,14 @@ nav ul li a:hover {
 }
 
 .left-paragraph {
+	font-family: Afacad;
 	font-size: 20px;
     text-align: left;
     margin-right: 5%;
 }
 
 .right-paragraph {
+	font-family: Afacad;
 	font-size: 20px;
     text-align: left;
     margin-left: 5%;
@@ -166,24 +166,26 @@ img.just-container {
 }
 
 .valores-container {
-	color: #1E5A7F; /* Color del título */
+	color: #1E5A7F; 
     font-weight: bold;
 }
 
 .valores-container:hover {
-	background-color: #1E5A7F; /* Cambia el color de fondo al pasar el mouse */
-    color: #fff; /* Cambia el color del texto al pasar el mouse */
-    padding: 10px; /* Añade un poco de espacio alrededor del texto al pasar el mouse */
+	background-color: #1E5A7F;
+    color: #fff; 
+    padding: 10px;
     border-radius: 5px;
 }
 
 .serv {
+	font-family: Afacad;
 	font-size: 45px;
 	text-align: center;
     margin-top: 35px;
 }
 
 .servicios-container {
+	font-family: Afacad;
 	margin-block: 5%;
 	text-align: center;
     display: block;
@@ -191,16 +193,31 @@ img.just-container {
 
 .imag-serv {
 	width: 10%;
-	max-width: 20%; /* Ajusta el ancho de las imágenes según tus necesidades */
-    margin-bottom: 25px; /* Espaciado entre las imágenes */
-    transition: transform 0.3s ease-in-out; /* Agrega una transición para suavizar el cambio al pasar el mouse */
+	max-width: 20%;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .imag-serv:hover {
-    transform: scale(1.1); /* Efecto de aumento al pasar el mouse sobre la imagen */
+    transform: scale(1.1); 
+}
+
+.libros-container {
+    border-radius: 10px;
+    height: auto;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.libros-container img {
+	max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 h2 {
+	font-family: Afacad;
 	text-align: center;
 	font-size: 30px;
 }
@@ -211,17 +228,17 @@ h2 {
     align-items: center;
     max-width: 100%;
     margin: 0 auto;
-    background-color: #d6ecf2; /* Color de fondo del recuadro */
+    background-color: #d6ecf2;
     padding: 15px;
 }
 
 .contenido {
-    flex: 1; /* El contenido ocupa todo el espacio disponible */
+    flex: 1; 
 }
 
 .imagen-container img{
 	height: auto;
-	max-width: 60%; /* La imagen no excede el ancho de su contenedor */
+	max-width: 60%; 
 }
 
 .ubicacionmap {
@@ -245,19 +262,19 @@ h2 {
 }
 
 .contact-section h2 {
+	font-family: Afacad;
     color: #333;
 }
 
 .contact-section p {
+	font-family: Afacad;
     color: #777;
 }
-
-/* Estilos del botón de llamada a la acción */
 
 .cta-button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #3498db; /* Color principal */
+    background-color: #3498db; 
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -266,31 +283,62 @@ h2 {
 }
 
 .cta-button:hover {
-    background-color: #2079b0; /* Color al pasar el ratón */
+    background-color: #2079b0; 
 }
 .horarios {
-    background-color: #f4f4f4; /* Fondo gris claro */
+    background-color: #f4f4f4; 
     border-radius: 10px;
     padding: 20px;
-    text-align: center; /* Centrar el texto */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .horarios h3 {
-    color: #333; /* Color del texto para el título */
+    color: #333; 
 }
 
 .horarios p {
-    margin: 10px 0; /* Espaciado entre los párrafos */
+    margin: 10px 0; 
 }
 
-/* Estilo para los días cerrados */
 .horarios p.cerrado {
-    color: #d9534f; /* Color rojo para indicar días cerrados */
+    color: #d9534f;
     font-weight: bold;
 }
 
-/* Estilo para el pie de página */
+.wp-block-heading {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.5em;
+    line-height: 1.4;
+}
+
+.contacto {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1e5a7f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center; 
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+    display: block;
+}
+
+.contacto:hover {
+    background-color: #49AAE7;
+}
+
+.pnov {
+	font-size: 20px;
+	margin: 5px;
+}
+
 footer {
     height: 100px;
     background-color: #1E5A7F;
@@ -319,8 +367,8 @@ footer {
 	}
 
     .logo-container {
-        flex-direction: column; /* Apila el logo y la frase en pantallas pequeñas */
-        align-items: flex-start; /* Hace que el logo ocupe el 100% del ancho en pantallas pequeñas */
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .frase {
@@ -329,17 +377,17 @@ footer {
 
     .cita-container {
     	height: 60vh;
-        background-size: auto; /* Ajusta el tamaño de la imagen para adaptarse al contenido */
+        background-size: auto;
         background-size: cover;
     }
 
     .cita {
     	text-align: center;
-        font-size: 20px; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+        font-size: 20px;
     }
 
     .autor {
-        font-size: 14px; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+        font-size: 14px;
     }
 
     img.just-container {
@@ -377,13 +425,13 @@ footer {
     }
 
     .contenedor {
-        flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+        flex-direction: column;
         text-align: center;
     }
 
     .imagen-container {
     	max-width: 100%;
-        margin-top: 20px; /* Añade un espacio entre el texto y la imagen en pantallas pequeñas */
+        margin-top: 20px;
     }
 
 }
